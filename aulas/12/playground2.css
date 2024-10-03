@@ -1,0 +1,37 @@
+.elemento {
+    height: 250px;
+    width: 250px;
+    background-color: lightseagreen;
+    position: relative;
+    border-radius: 50%;
+}
+
+.elemento-filho {
+    background-color: darkblue;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    border-radius: 50%;
+}
+
+.elemento-fixo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: green;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+.elemento-sticky{
+    position: sticky;
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    border-radius: 50%;
+    top: 20px;
+    left: 550px;
+}

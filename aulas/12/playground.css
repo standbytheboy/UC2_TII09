@@ -1,0 +1,15 @@
+body{
+    background: linear-gradient(to right, rgb(107, 151, 209), rgb(105, 55, 221));;
+}
+
+div{
+    background-color: lightcoral;
+}
+
+p{
+    background-color: lightblue;
+}
+
+span{
+    background-color: orange;
+}

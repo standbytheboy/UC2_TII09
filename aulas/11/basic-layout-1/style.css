@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(190,190,190);
+}
+
+main{
+    height: 800px;
+    background-color: black;
+}
+
+nav{
+    background-color: rgb(220, 220, 220);
+}
+
+section{
+    background-color: rgb(155, 155, 155);
+    height: 50%;
+}
+
+aside{
+    background-color: rgb(215,215,215);
+    height: 25%;
+}
+
+div {
+    background-color: rgb(120, 120, 120);
+    height: 25%;
+}
+
+footer{
+    background-color: rgb(190,190,190);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

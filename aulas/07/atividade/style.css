@@ -1,0 +1,30 @@
+ol{
+    padding-left: 2%;
+}
+
+h1 /* seletor ou selector */{
+    color /* propriedade */:  blue /* valor */;;
+}
+
+li {
+    color: blue;
+    font-weight: bold;
+    font-size: larger;
+}
+
+p{
+    color: green;
+}
+
+pre{
+    background-color: rgb(241, 241, 241);
+}
+
+.list{
+    font-weight: 400;
+    color: black;
+    font-size: 15px;
+    list-style-type: disc;
+}
+
+

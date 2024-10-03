@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Usando Imagens</title>
+</head>
+
+<body>
+    <header>
+        <h1>Aula: Uso de Imagens em HTML</h1>
+        <nav>
+            <ul>
+                <li><a href="../08/">&lt Anterior</a></li>
+                <!-- o href sempre procura o arquivo chamado "index", por isso não é necessário escolhê-lo -->
+                <li><a href="#">Próximo &gt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Introdução à Tag &lt;img&gt;</h2>
+            <p>
+                A tag &lt;img&gt; em HTML é usada para incorporar imagens em uma página web. Ela é um elemento vazio, ou seja,
+                não possui uma tag de fechamento e contém apenas atributos que definem o conteúdo visual.
+            </p>
+
+            <h3>Atributos Principais:</h3>
+            <ul>
+                <li><em>src (source)</em>: define o caminho da imagem que será exibida. Pode ser uma URL externa ou um caminho
+                    relativo dentro do servidor.
+                    <div class="card">
+                        <h4>Exemplo 1:</h4>
+                    <pre><code>&lt;img src="./img/imagem2.png"&gt;</code></pre>
+                    <p>Resultado:</p>
+                    <img src="./img/imagem2.png" alt="Mashle, o brabo">
+                </div>
+                </li>
+                <li>
+                    <em>alt (alternative text)</em>: fornece um texto alternativo para ser exibido caso a imagem não possa ser carregada. Ele também melhora a acessibilidade para leitores de tela.
+                    <div class="card">
+                        <h4>Exemplo 2:</h4>
+                    <pre><code>&lt;img src="./img/imagem2.png alt="GIF do Mashle comendo profiterole"&gt;</code></pre>
+                    <p>Resultado:</p>
+                    <img src="./img/mashle.gif" alt="GIF do Nyan Cat, arte em pixel">
+                </div>
+                </li>
+                <li>
+                    <em>src</em> também pode ser de um link externo:
+                    <div class="card">
+                        <h4>Exemplo 3:</h4>
+                        <pre><code>&lt;img src="https://news.epopculture.com/wp-content/uploads/2024/01/Mashle.jpg" &gt; </code></pre>
+                        <p>Resultado:</p>
+                        <img src="https://news.epopculture.com/wp-content/uploads/2024/01/Mashle.jpg" alt="Mashle voando em cima de uma vassoura">
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <aside>
+            <h3>Tipos Comuns de Imagens</h3>
+            <p>Os tipos de imagens mais utilizados na Web são:</p>
+            <ul>
+                <li>
+                    <strong>(.jpg ou .jpeg):</strong>
+                    Formato utilizado amplamente para fotografias e imagens com muitos detalhes e cores. Possui compressão com perda de qualidade (lossy).
+                </li>
+                <li>
+                    <strong>(.png):</strong>
+                    Usado para imagens com fundo transparente ou que necessitam de alta qualidade,
+                    sem perda de detalhes. Utiliza compressão sem perda (lossless).
+                </li>
+                <li>
+                    <strong>GIF (.gif):</strong>
+                    Formato ideal para imagens animadas e pequenos ícones. Suporta transparência, mas tem um número limitado de cores.
+                </li>
+            </ul>
+        </aside>
+    </main>
+</body>
+</html>

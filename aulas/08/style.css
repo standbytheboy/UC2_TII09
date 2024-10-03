@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #cfbefd;
+}
+
+/* Estilos para header e navegação */
+header{
+    background-color: #734ed8;
+    color: aliceblue;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 15px;
+      
+}
+
+/* Estilos para o conteúdo principal */
+main{
+    margin: 25px;
+    padding: 20px;
+    background-color: #734ed8b2;
+    border-radius: 10px;
+    
+}
+
+section{
+    background-color: #cfbefd;
+    padding: 35px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Estilos para conteúdo complementar */
+aside{
+    background-color: #cfbefd;
+    padding: 35px 20px;
+    border-left: 5px solid black;
+    border-radius: 10px;
+}
+
+/* Estilos para rodapé */
+footer{
+    background-color: #734ed8;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+a{
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #734ed8;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+    background-color: #cfbefd;
+    border: 1px solid;
+}
