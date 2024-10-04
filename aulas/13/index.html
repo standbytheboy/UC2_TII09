@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css">
+    <title>Grid Layout</title>
+</head>
+<body>
+    <header>
+        <h1>Grid Layout e Suas Propriedades</h1>
+    </header>
+    <main>
+        <h2>Introdução</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam in voluptas modi corrupti voluptatum sequi consequatur. Porro, et sapiente cupiditate culpa expedita vel nesciunt asperiores quidem quod pariatur distinctio. Unde.</p>
+        <hr>
+        <h2>Estrutura Básica do Grid</h2>
+        <p>Para criar um Layout Grid, primeiro devemos definir um container que irá funcionar como uma grade. Dentro deste container, os itens se alinham conforme as colunas e linhas definidas.</p>
+        
+        <pre>
+            <code>
+    HTML:
+
+    div class="grid-container" 
+        div class="item item1" Item 1 /div
+        div class="item item2" Item 2 /div
+        div class="item item3 borda-redonda" Item 3 /div
+        div class="item item4" Item 4 /div
+    div>
+
+    CSS:
+
+    .grid-container {
+        display: grid; /* Define o container como grid */
+        grid-template-columns: 200px 200px; /* Define 2 col de 200px cada */
+        grid-template-rows: 150px 150px;
+        gap: 10px;
+        background-color: lightgray;
+    }
+            </code>
+        </pre>
+        <hr>
+        <h2>Ajustando Colunas e Linhas com o <em>fr</em></h2>
+        <p>A unidade <em>fr</em> (fraction unit) é muito útil se deseja criar colunas ou linhas proporcionais distribuindo o espaço disponível entre os itens. Ex:</p>
+
+        <pre>
+            <code>
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 3fr;
+    }
+            </code>
+        </pre>
+    </main>
+    <hr>
+    <h2>Posicionamento Explícito de Itens</h2>
+    <p>Com o Grid, você pode controlar exatamente onde cada item será posicionado.</p>
+</body>
+</html>

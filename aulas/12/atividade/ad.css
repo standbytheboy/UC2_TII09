@@ -16,7 +16,7 @@ body {
     position: fixed;
     background-color: yellow;
     padding: 10px 30px;
-    border: 1px solid black;
+    border: 2px solid black;
     bottom: 20px;
     right: 20px;
 }
