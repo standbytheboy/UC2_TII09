@@ -38,3 +38,13 @@ footer{
     background: lightgray;
     grid-column: 1 / -1;
 }
+
+@media (max-width: 700px) {
+    .grid-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    header, nav, main, aside, footer {
+        grid-column: 1/2;
+    }
+}
