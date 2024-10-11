@@ -1,0 +1,111 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: auto 1fr;
+    height: 100vh;
+}
+
+.nav-top{
+    background-color: lightblue;
+    grid-column: 1/3;
+}
+
+.nav-vertical{
+    background-color: lightgreen;
+    grid-row: 2/ -1; /* vai da segunda até a última linha */
+
+}
+
+.content{
+    background-color: lightsalmon;
+}
+
+.section:nth-child(odd) /* even ou odd - par ou ímpar */{
+    background-color: white;
+}
+
+.section:nth-child(even) /* even ou odd - par ou ímpar */{
+    background-color: lightgray;
+}
+
+.full-width{
+    display: block;
+}
+
+table{
+    border: solid 1px;
+}
+
+.split-width{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.dashboard{
+    padding: 14px;
+}
+
+.mini-cards{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.mini-block{
+    height: 30px;
+    width: 40px;
+    background: violet;
+}
+
+.mini-block, .text-mini-block{
+    margin: 10px 0;
+}
+
+.card-container{
+ display: grid;
+ grid-template-columns: 1fr 1fr;   
+ grid-template-rows: 1fr 1fr;
+ gap: 20px;
+ margin: 20px;
+}
+
+.card{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card p, h4 {
+    margin: 0 0 5px;
+}
+
+.information{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 650px) {
+    .split-width{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
